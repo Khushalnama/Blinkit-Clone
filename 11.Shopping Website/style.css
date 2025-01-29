@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: var(--main-bg-color); 
+    font-family: 'Lato', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html, head{
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    height: 100px;
+    border-bottom: 1px solid black;
+    border-color: rgb(239, 231, 220);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    left: 100px;
+    position: relative;
+}
+
+.search input{
+    width: 30vw;
+    height: 28px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding:0 12px;
+    background: rgb(243, 234, 234);
+}
+.search-icon{
+    position: relative;
+    left: 50px;
+}
+.search button{
+    font-weight: 500;
+    width: 70px;
+    font-size: 20px;
+    position: relative;
+    right: 15px;
+    border-radius: 5px;
+    height: 28px;
+}
+
+.search button:hover{
+    cursor: pointer;
+    background-color: rgb(150, 222, 242);
+    color: #fff;
+}
+
+.login{
+    position: relative;
+    left: 25%;
+    top: 39%;
+}
+
+.cart{
+    position: relative;
+    left: 30%;
+    top: 20px;
+    color: black;
+}
+
+.ct{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.ct:hover{
+    color: black;
+}
+
+.bi.bi-search{
+    left: 8%;
+    position: relative;
+}
+
+.logo{
+    border-right: 1px solid;
+    left: 30px;
+    position: relative;
+    border-color: rgb(239, 231, 220);
+}
+
+.Paan{
+    width: 1280px;
+    margin: 10px;
+    left: 50px;
+    position: relative;
+}
+
+.third-row{
+    display: flex;
+    width: 335.40000000000003;
+    height: 195px;
+    left: 0.5%;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.third-img{
+    margin: 10px;
+    width: 350px;
+}
+
+.fourth-row{
+    width: 128px;
+    height: 188px;
+    display: flex;
+    left: 60px;
+    position: relative;
+}
+
+.fifth-row{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 50px;
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.first-para{
+    left: 6%;
+    position: relative;
+}
+
+.fifteenth-img{
+    position: relative;
+    left: 40px;
+    background-color: rgb(197, 217, 217);
+    border: 1px solid rgb(210, 196, 196);
+}
+
+.one-pic{
+    position: relative;
+    width: 140px;
+    height: 140px;    
+}
+
+.fifth-row-heading{
+    left: 20px;
+    position: relative;
+    font-size: 13px;
+}
+
+.gram{
+    left: 20px;
+    position: relative;
+    font-size: 12px;
+}
+
+.price{
+    left: 20px;
+    position: relative;
+    font-size: 12px;
+}
+
+.add{
+    position: relative;
+    left: 90px;
+    bottom: 20px;
+}
+
+.second-para{
+    position: relative;
+    left: 6%;
+    top: 10px;
+}
+
+.sixth-row{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 50px;
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.first-footer{
+    background-color: black;
+    height: 500px;
+}
+
+footer{
+    height: 300px;
+}
+
+.footerlink{
+    position: relative;
+    left: 70px;
+    font-size: 150%;
+    top: 20px;
+    color: white;
+}
+
+.main{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    display: flex;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    font-size: larger;
+    color: rgb(98, 96, 96);
+}
+
+.two{
+    position: relative;
+    left: 60px;
+}
+
+.three{
+    position: relative;
+    left: 120px;
+}
+
+.lastlink{
+    position: relative;
+    left: 30%;
+    bottom:400px;
+}
+
+.lastrow{
+    display: flex;
+    word-spacing: 2px;
+    bottom: -50px;
+    left: 120px;
+    position: relative;
+    width: 800px;
+    margin: 20px;
+    padding: 20px;
+    font-size: larger;
+    color: rgb(98, 96, 96);
+}
